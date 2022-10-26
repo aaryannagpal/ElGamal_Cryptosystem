@@ -30,7 +30,7 @@ The receiver now has to decrypt the message, which was received as $(B,C)$.
 
 Using the private key $a$, $B^a$ is computed, which is $g^{ab}$, creating the **shared secret** $S$. The receiver calculates the inverse of $S$, which is $S^{-1}$ and multiplies that (modularly) to $C$, computing the orignal message.
 
-### Security
+## Security
 
 ElGamal is not a impenetrable cryptosystem and thus faces a few security threats:
 
